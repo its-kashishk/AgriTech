@@ -1,0 +1,23 @@
+// Hindi translations cover the interface (navigation, buttons, headings). Agricultural advice,
+// crop-guide text, alerts and safety information stay in English on purpose – see docs/KNOWN-LIMITATIONS.md.
+export default {
+  'app.name': 'एग्रीटेक',
+  'nav.dashboard': 'डैशबोर्ड', 'nav.farms': 'मेरे खेत', 'nav.crops': 'मेरी फसलें', 'nav.activities': 'खेत की गतिविधियाँ', 'nav.soil': 'मिट्टी के रिकॉर्ड',
+  'nav.cropInfo': 'फसल गाइड', 'nav.weather': 'मौसम', 'nav.market': 'बाज़ार', 'nav.cart': 'कार्ट', 'nav.orders': 'मेरे ऑर्डर',
+  'nav.services': 'सेवाएँ', 'nav.bookings': 'मेरी बुकिंग', 'nav.community': 'समुदाय', 'nav.alerts': 'अलर्ट', 'nav.profile': 'प्रोफ़ाइल',
+  'nav.admin': 'एडमिन', 'nav.adminUsers': 'उपयोगकर्ता', 'nav.adminProducts': 'उत्पाद', 'nav.adminServices': 'सेवाएँ', 'nav.adminOrders': 'ऑर्डर', 'nav.adminBookings': 'बुकिंग', 'nav.adminAlerts': 'सलाह',
+  'nav.logout': 'लॉग आउट', 'nav.login': 'लॉग इन', 'nav.register': 'पंजीकरण', 'nav.menu': 'मेन्यू',
+  'common.save': 'सहेजें', 'common.cancel': 'रद्द करें', 'common.delete': 'हटाएँ', 'common.edit': 'संपादित करें', 'common.add': 'जोड़ें', 'common.search': 'खोजें', 'common.loading': 'लोड हो रहा है…',
+  'common.view': 'देखें', 'common.back': 'वापस', 'common.language': 'भाषा', 'common.retry': 'फिर कोशिश करें',
+  'auth.loginTitle': 'वापसी पर स्वागत है', 'auth.registerTitle': 'अपना किसान खाता बनाएँ', 'auth.email': 'ईमेल', 'auth.password': 'पासवर्ड', 'auth.name': 'पूरा नाम',
+  'auth.phone': 'फ़ोन (वैकल्पिक)', 'auth.location': 'गाँव / शहर (वैकल्पिक)', 'auth.noAccount': 'नए हैं?', 'auth.haveAccount': 'पहले से पंजीकृत हैं?',
+  'dash.title': 'आपका खेत एक नज़र में', 'dash.farms': 'खेत', 'dash.crops': 'चालू फसलें', 'dash.alerts': 'अपठित अलर्ट', 'dash.harvests': 'अगले 30 दिनों में कटाई',
+  'dash.activities': 'हाल की खेत गतिविधियाँ', 'dash.orders': 'हाल के ऑर्डर', 'dash.bookings': 'आगामी बुकिंग',
+  'farms.title': 'मेरे खेत', 'farms.add': 'खेत जोड़ें', 'crops.title': 'मेरी फसलें', 'crops.add': 'फसल जोड़ें', 'soil.title': 'मिट्टी के रिकॉर्ड', 'soil.add': 'मिट्टी का रिकॉर्ड जोड़ें',
+  'weather.title': 'मौसम', 'weather.search': 'मौसम देखें', 'weather.city': 'शहर या गाँव का नाम', 'weather.useLocation': 'मेरा स्थान उपयोग करें',
+  'market.title': 'बाज़ार', 'market.addToCart': 'कार्ट में डालें', 'cart.title': 'आपका कार्ट', 'cart.checkout': 'डेमो ऑर्डर करें',
+  'orders.title': 'मेरे ऑर्डर', 'services.title': 'सेवाएँ', 'bookings.title': 'मेरी बुकिंग', 'community.title': 'समुदाय', 'alerts.title': 'अलर्ट और सलाह',
+  'profile.title': 'मेरी प्रोफ़ाइल',
+  'demo.payment': 'डेमो चेकआउट: कोई असली भुगतान नहीं लिया जाता और कार्ड की जानकारी सहेजी नहीं जाती।',
+  'disclaimer.advice': 'यह केवल सामान्य जानकारी है। कृपया अपने स्थानीय कृषि अधिकारी या कृषि विज्ञान केंद्र से पुष्टि करें।',
+};

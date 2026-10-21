@@ -1,0 +1,12 @@
+import { cap } from './format';
+const opts = (arr) => arr.map((v) => ({ value: v, label: cap(v) }));
+export const SOIL_TYPES = opts(['alluvial', 'black', 'red', 'laterite', 'sandy', 'clay', 'loamy', 'other']);
+export const IRRIGATION = opts(['rainfed', 'canal', 'tubewell', 'drip', 'sprinkler', 'other']);
+export const CROP_TYPES = opts(['cereal', 'pulse', 'oilseed', 'vegetable', 'fruit', 'cash', 'other']);
+export const STAGES = ['sowing', 'germination', 'vegetative', 'flowering', 'fruiting', 'maturity', 'harvested'];
+export const STAGE_OPTS = opts(STAGES);
+export const CROP_STATUS = opts(['active', 'harvested', 'failed']);
+export const ACTIVITY_TYPES = opts(['sowing', 'irrigation', 'fertilizing', 'pesticide', 'weeding', 'harvesting', 'other']);
+export const PRODUCT_CATEGORIES = opts(['seed', 'fertilizer', 'pesticide', 'tool', 'equipment', 'other']);
+export const SERVICE_CATEGORIES = opts(['equipment-rental', 'consultation', 'other']);
+export const farmOptions = (farms) => (farms || []).map((f) => ({ value: f._id, label: f.name }));
