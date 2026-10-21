@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "title": "AgriTech crop reference library",
+    "source": "General agronomy summaries compiled for a student capstone from widely published public extension guidance (e.g. ICAR / state agricultural university crop guides). Values are APPROXIMATE and vary by variety, region and season.",
+    "disclaimer": "Educational reference only. Always confirm sowing dates, varieties, doses and pesticide choices with your local Krishi Vigyan Kendra (KVK) or agriculture officer.",
+    "maintain": "Edit this file (or move it to a CropInfo collection) to add crops. Each crop needs the same keys."
+  },
+  "crops": [
+    {
+      "slug": "wheat", "name": "Wheat", "type": "cereal", "season": "Rabi (winter)", "durationDays": "110-150",
+      "overview": "A major winter cereal grown across the Indo-Gangetic plain and central India.",
+      "climate": "Cool weather during growth and warm, dry weather at grain filling; roughly 10-25 °C.",
+      "soil": "Well-drained loam to clay loam, near neutral pH.",
+      "irrigation": "Commonly irrigated at critical stages such as crown root initiation, tillering, flowering and grain filling.",
+      "planting": "Sown typically in November in northern India using certified seed; line sowing is preferred to broadcasting.",
+      "stages": ["Germination", "Tillering", "Jointing", "Flowering", "Grain filling", "Maturity"],
+      "harvest": "When the grain is hard and the crop turns golden-yellow and dry.",
+      "care": ["Use certified, treated seed", "Control weeds in the first 30-40 days", "Avoid waterlogging"],
+      "pests": [
+        { "name": "Yellow rust", "kind": "disease", "symptoms": "Yellow stripes of powdery spores on leaves.", "prevention": "Resistant varieties, timely sowing, monitor in cool humid weather and consult an officer on fungicide use." },
+        { "name": "Aphids", "kind": "pest", "symptoms": "Clusters of small insects on leaves and ear heads; sticky honeydew.", "prevention": "Field scouting, avoid excess nitrogen, encourage natural enemies." }
+      ]
+    },
+    {
+      "slug": "rice", "name": "Rice (Paddy)", "type": "cereal", "season": "Kharif (monsoon)", "durationDays": "100-150",
+      "overview": "Staple cereal grown in flooded or rainfed fields, mainly in the monsoon season.",
+      "climate": "Warm and humid, roughly 20-35 °C with ample water.",
+      "soil": "Clay or clay loam that holds water.",
+      "irrigation": "Needs standing water for much of the season; alternate wetting and drying can save water.",
+      "planting": "Seedlings raised in a nursery are transplanted after about 3-4 weeks, or seed is direct-sown.",
+      "stages": ["Nursery", "Transplanting", "Tillering", "Panicle initiation", "Flowering", "Grain filling", "Maturity"],
+      "harvest": "When most grains in the panicle turn straw-coloured and the lower ones are in the dough stage.",
+      "care": ["Level the field for uniform water depth", "Manage weeds early", "Drain the field before harvest"],
+      "pests": [
+        { "name": "Blast", "kind": "disease", "symptoms": "Diamond-shaped grey-centred lesions on leaves; neck rot.", "prevention": "Resistant varieties, balanced nitrogen, seed treatment as advised locally." },
+        { "name": "Stem borer", "kind": "pest", "symptoms": "Dead hearts in young plants and white ears at heading.", "prevention": "Remove stubble, use pheromone traps for monitoring, consult an officer for control." }
+      ]
+    },
+    {
+      "slug": "maize", "name": "Maize", "type": "cereal", "season": "Kharif / Rabi", "durationDays": "90-120",
+      "overview": "Versatile cereal used for food, feed and industry.",
+      "climate": "Warm; roughly 21-30 °C. Sensitive to waterlogging and drought at flowering.",
+      "soil": "Well-drained fertile loam.",
+      "irrigation": "Critical stages are knee-high, tasseling and silking.",
+      "planting": "Sown in rows with plant spacing recommended for the variety.",
+      "stages": ["Germination", "Vegetative", "Tasseling", "Silking", "Grain filling", "Maturity"],
+      "harvest": "When husks dry and kernels are hard with a dark layer at the base.",
+      "care": ["Earthing up", "Weed control early", "Ensure drainage"],
+      "pests": [
+        { "name": "Fall armyworm", "kind": "pest", "symptoms": "Ragged leaf damage and sawdust-like frass in the whorl.", "prevention": "Early scouting, timely sowing; seek local guidance on control." }
+      ]
+    },
+    {
+      "slug": "tomato", "name": "Tomato", "type": "vegetable", "season": "Year-round with protection", "durationDays": "90-140",
+      "overview": "Popular vegetable crop grown in open fields and protected cultivation.",
+      "climate": "Warm; fruit set suffers in very hot (above ~35 °C) or cold weather.",
+      "soil": "Well-drained loam rich in organic matter, pH about 6-7.",
+      "irrigation": "Regular, even moisture; irregular watering causes fruit cracking.",
+      "planting": "Seedlings raised in a nursery and transplanted at about 4-5 weeks; staking helps.",
+      "stages": ["Nursery", "Transplanting", "Vegetative", "Flowering", "Fruiting", "Harvest"],
+      "harvest": "Pick at the stage suited to the market, repeatedly over several weeks.",
+      "care": ["Stake plants", "Rotate crops", "Avoid wetting the foliage"],
+      "pests": [
+        { "name": "Early blight", "kind": "disease", "symptoms": "Brown spots with concentric rings on older leaves.", "prevention": "Crop rotation, remove infected leaves, avoid overhead irrigation." },
+        { "name": "Leaf curl virus (whitefly-borne)", "kind": "disease", "symptoms": "Upward curling, stunted plants.", "prevention": "Control whiteflies, use tolerant varieties, remove infected plants." }
+      ]
+    },
+    {
+      "slug": "potato", "name": "Potato", "type": "vegetable", "season": "Rabi (winter)", "durationDays": "75-120",
+      "overview": "Tuber crop grown in cool seasons.",
+      "climate": "Cool nights favour tuber formation, roughly 15-25 °C.",
+      "soil": "Loose, well-drained sandy loam, slightly acidic to neutral.",
+      "irrigation": "Light, frequent irrigation; stop before harvest.",
+      "planting": "Healthy seed tubers planted in ridges.",
+      "stages": ["Sprouting", "Vegetative", "Tuber initiation", "Tuber bulking", "Maturity"],
+      "harvest": "When haulms dry; cure tubers before storage.",
+      "care": ["Earthing up to cover tubers", "Use disease-free seed tubers"],
+      "pests": [
+        { "name": "Late blight", "kind": "disease", "symptoms": "Water-soaked dark patches on leaves, white growth underneath in humid weather.", "prevention": "Healthy seed, resistant varieties, monitor in cool humid weather and ask an officer about protective sprays." }
+      ]
+    },
+    {
+      "slug": "cotton", "name": "Cotton", "type": "cash", "season": "Kharif", "durationDays": "150-180",
+      "overview": "Fibre crop grown on black and alluvial soils.",
+      "climate": "Warm, with a long frost-free period.",
+      "soil": "Deep, well-drained black soil is typical.",
+      "irrigation": "Needs moisture at flowering and boll development.",
+      "planting": "Sown at the onset of monsoon with recommended spacing.",
+      "stages": ["Germination", "Squaring", "Flowering", "Boll development", "Boll opening"],
+      "harvest": "Pick mature, fully opened bolls in several rounds.",
+      "care": ["Regular scouting", "Balanced nutrition"],
+      "pests": [
+        { "name": "Pink bollworm", "kind": "pest", "symptoms": "Damaged bolls with rosette flowers and stained lint.", "prevention": "Timely sowing, destroy crop residue, pheromone-trap monitoring, follow local advisories." }
+      ]
+    },
+    {
+      "slug": "sugarcane", "name": "Sugarcane", "type": "cash", "season": "Spring / Autumn planting", "durationDays": "300-450",
+      "overview": "Long-duration cash crop for sugar and jaggery.",
+      "climate": "Warm and humid, with plenty of sunshine.",
+      "soil": "Deep, well-drained loam.",
+      "irrigation": "Frequent irrigation, especially in the tillering and grand growth phases.",
+      "planting": "Setts (stem cuttings) with healthy buds are planted in furrows.",
+      "stages": ["Germination", "Tillering", "Grand growth", "Maturity"],
+      "harvest": "When cane reaches maturity as advised by the local sugar mill or extension office.",
+      "care": ["Trash mulching", "Earthing up", "Rotate with other crops"],
+      "pests": [
+        { "name": "Red rot", "kind": "disease", "symptoms": "Reddening of internal tissue with whitish patches; sour smell.", "prevention": "Disease-free setts, resistant varieties, remove and destroy infected clumps." }
+      ]
+    },
+    {
+      "slug": "soybean", "name": "Soybean", "type": "oilseed", "season": "Kharif", "durationDays": "90-120",
+      "overview": "Legume oilseed that also fixes nitrogen.",
+      "climate": "Warm and moist; roughly 20-30 °C.",
+      "soil": "Well-drained loam; avoid waterlogged fields.",
+      "irrigation": "Mostly rainfed; critical at flowering and pod filling.",
+      "planting": "Sown after the monsoon sets in, usually with seed treatment (rhizobium culture).",
+      "stages": ["Germination", "Vegetative", "Flowering", "Pod formation", "Seed filling", "Maturity"],
+      "harvest": "When leaves yellow and drop and pods turn brown.",
+      "care": ["Weed control in the first month", "Good drainage"],
+      "pests": [
+        { "name": "Yellow mosaic virus", "kind": "disease", "symptoms": "Yellow patches on leaves, reduced pod set.", "prevention": "Tolerant varieties, control whitefly vectors, remove infected plants early." }
+      ]
+    }
+  ]
+}
